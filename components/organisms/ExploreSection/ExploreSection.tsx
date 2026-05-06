@@ -103,25 +103,26 @@ export function ExploreSection({
 
       <div className={styles.metricsGrid}>
         {/* Life Expectancy Card */}
-        <MetricCard
-          label="Life Expectancy"
-          value={selectedNeighborhood
-            ? `${selectedNeighborhood.healthMetrics.lifeExpectancy} years`
-            : `${cityAverages.lifeExpectancy.toFixed(1)} years`
-          }
-          context={selectedNeighborhood
-            ? getComparisonText(
-                selectedNeighborhood.healthMetrics.lifeExpectancy,
-                cityAverages.lifeExpectancy,
-                'years'
-              )
-            : 'City average'
-          }
-          trend={selectedNeighborhood
-            ? selectedNeighborhood.healthMetrics.lifeExpectancy >= cityAverages.lifeExpectancy ? 'up' : 'down'
-            : undefined
-          }
-        >
+        <div>
+          <MetricCard
+            label="Life Expectancy"
+            value={selectedNeighborhood
+              ? `${selectedNeighborhood.healthMetrics.lifeExpectancy} years`
+              : `${cityAverages.lifeExpectancy.toFixed(1)} years`
+            }
+            context={selectedNeighborhood
+              ? getComparisonText(
+                  selectedNeighborhood.healthMetrics.lifeExpectancy,
+                  cityAverages.lifeExpectancy,
+                  'years'
+                )
+              : 'City average'
+            }
+            trend={selectedNeighborhood
+              ? selectedNeighborhood.healthMetrics.lifeExpectancy >= cityAverages.lifeExpectancy ? 'positive' : 'negative'
+              : undefined
+            }
+          />
           {selectedNeighborhood && (
             <div className={styles.comparisonBar}>
               <div className={styles.barTrack}>
@@ -153,24 +154,25 @@ export function ExploreSection({
               </div>
             </div>
           )}
-        </MetricCard>
+        </div>
 
         {/* HOI Score Card */}
-        <MetricCard
-          label="Health Opportunity Index"
-          value={selectedNeighborhood
-            ? `${selectedNeighborhood.sdohScores.hoiScore}/100`
-            : `${cityAverages.hoiScore.toFixed(1)}/100`
-          }
-          context={selectedNeighborhood
-            ? `${selectedNeighborhood.sdohScores.hoiCategory} opportunity`
-            : 'City average'
-          }
-          trend={selectedNeighborhood
-            ? selectedNeighborhood.sdohScores.hoiScore >= cityAverages.hoiScore ? 'up' : 'down'
-            : undefined
-          }
-        >
+        <div>
+          <MetricCard
+            label="Health Opportunity Index"
+            value={selectedNeighborhood
+              ? `${selectedNeighborhood.sdohScores.hoiScore}/100`
+              : `${cityAverages.hoiScore.toFixed(1)}/100`
+            }
+            context={selectedNeighborhood
+              ? `${selectedNeighborhood.sdohScores.hoiCategory} opportunity`
+              : 'City average'
+            }
+            trend={selectedNeighborhood
+              ? selectedNeighborhood.sdohScores.hoiScore >= cityAverages.hoiScore ? 'positive' : 'negative'
+              : undefined
+            }
+          />
           {selectedNeighborhood && (
             <div className={styles.comparisonBar}>
               <div className={styles.barTrack}>
@@ -202,24 +204,24 @@ export function ExploreSection({
               </div>
             </div>
           )}
-        </MetricCard>
+        </div>
 
         {/* Top SDOH Factors */}
         {selectedNeighborhood && (
           <>
             <MetricCard
               label="Economic Resources"
-              value={`${selectedNeighborhood.sdohScores.economicResources}/100`}
+              value={`${selectedNeighborhood.sdohScores.employmentScore}/100`}
               context="Access to jobs, income stability"
             />
             <MetricCard
               label="Housing Quality"
-              value={`${selectedNeighborhood.sdohScores.housingQuality}/100`}
+              value={`${selectedNeighborhood.sdohScores.housingScore}/100`}
               context="Affordability, safety, maintenance"
             />
             <MetricCard
               label="Education Access"
-              value={`${selectedNeighborhood.sdohScores.educationAccess}/100`}
+              value={`${selectedNeighborhood.sdohScores.educationScore}/100`}
               context="Schools, literacy programs"
             />
             <MetricCard
@@ -236,7 +238,7 @@ export function ExploreSection({
             <MetricCard
               label="Economic Resources"
               value={`${Math.round(
-                neighborhoods.reduce((sum, n) => sum + n.sdohScores.economicResources, 0) /
+                neighborhoods.reduce((sum, n) => sum + n.sdohScores.employmentScore, 0) /
                   neighborhoods.length
               )}/100`}
               context="City average"
@@ -244,7 +246,7 @@ export function ExploreSection({
             <MetricCard
               label="Housing Quality"
               value={`${Math.round(
-                neighborhoods.reduce((sum, n) => sum + n.sdohScores.housingQuality, 0) /
+                neighborhoods.reduce((sum, n) => sum + n.sdohScores.housingScore, 0) /
                   neighborhoods.length
               )}/100`}
               context="City average"
@@ -252,7 +254,7 @@ export function ExploreSection({
             <MetricCard
               label="Education Access"
               value={`${Math.round(
-                neighborhoods.reduce((sum, n) => sum + n.sdohScores.educationAccess, 0) /
+                neighborhoods.reduce((sum, n) => sum + n.sdohScores.educationScore, 0) /
                   neighborhoods.length
               )}/100`}
               context="City average"

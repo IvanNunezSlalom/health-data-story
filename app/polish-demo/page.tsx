@@ -83,17 +83,16 @@ export default function PolishDemo() {
               />
             </FadeIn>
 
-            <StaggerGrid
-              staggerDelay={0.1}
-              maxItems={6}
-              className="grid"
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-                gap: 'var(--space-4)',
-                marginTop: 'var(--space-6)'
-              }}
-            >
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+              gap: 'var(--space-4)',
+              marginTop: 'var(--space-6)'
+            }}>
+              <StaggerGrid
+                staggerDelay={0.1}
+                maxItems={6}
+              >
               {[1, 2, 3, 4, 5, 6].map(num => (
                 <div
                   key={num}
@@ -118,7 +117,8 @@ export default function PolishDemo() {
                   </p>
                 </div>
               ))}
-            </StaggerGrid>
+              </StaggerGrid>
+            </div>
           </section>
 
           {/* Loading states demo */}

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import type { Neighborhood } from '@/types';
 import { FadeIn, LazyLoad } from '@/components/atoms';
@@ -144,7 +143,7 @@ export default function CompleteStoryPage() {
       />
 
       {/* Context Band */}
-      <SectionBand variant="white">
+      <SectionBand variant="light">
         <FadeIn>
           <div className={styles.contextGrid}>
             <div className={styles.contextText}>
@@ -193,26 +192,28 @@ export default function CompleteStoryPage() {
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <Card variant="highlight" style={{ marginTop: 'var(--space-8)' }}>
-            <div style={{ padding: 'var(--space-6)' }}>
-              <h3 style={{
-                fontSize: 'var(--font-size-xl)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--primary-700)',
-                marginBottom: 'var(--space-3)'
-              }}>
-                Where You Live Shapes Your Health
-              </h3>
-              <p style={{
-                fontSize: 'var(--font-size-md)',
-                lineHeight: 'var(--line-height-relaxed)',
-                color: 'var(--neutral-700)',
-                margin: 0
-              }}>
-                Explore how neighborhood conditions create different health opportunities across our city. The interactive tools below help you discover these patterns in your own community.
-              </p>
-            </div>
-          </Card>
+          <div style={{ marginTop: 'var(--space-8)' }}>
+            <Card className={styles.highlightCard}>
+              <div style={{ padding: 'var(--space-6)' }}>
+                <h3 style={{
+                  fontSize: 'var(--font-size-xl)',
+                  fontWeight: 'var(--font-weight-bold)',
+                  color: 'var(--primary-700)',
+                  marginBottom: 'var(--space-3)'
+                }}>
+                  Where You Live Shapes Your Health
+                </h3>
+                <p style={{
+                  fontSize: 'var(--font-size-md)',
+                  lineHeight: 'var(--line-height-relaxed)',
+                  color: 'var(--neutral-700)',
+                  margin: 0
+                }}>
+                  Explore how neighborhood conditions create different health opportunities across our city. The interactive tools below help you discover these patterns in your own community.
+                </p>
+              </div>
+            </Card>
+          </div>
         </FadeIn>
       </SectionBand>
 
@@ -232,7 +233,7 @@ export default function CompleteStoryPage() {
       </SectionBand>
 
       {/* Geographic Overview Band */}
-      <SectionBand variant="white">
+      <SectionBand variant="light">
         <FadeIn>
           <SectionHeader
             eyebrow="Geographic Patterns"
@@ -276,8 +277,6 @@ export default function CompleteStoryPage() {
                 data={demographicData}
                 averageValue={avgLE}
                 xAxisLabel="Life Expectancy (years)"
-                width={900}
-                height={400}
               />
             ) : (
               <SkeletonChart width={900} height={400} variant="bar" />
@@ -286,31 +285,33 @@ export default function CompleteStoryPage() {
         </FadeIn>
 
         <FadeIn delay={0.3}>
-          <Card variant="highlight" style={{ marginTop: 'var(--space-8)' }}>
-            <div style={{ padding: 'var(--space-6)' }}>
-              <h3 style={{
-                fontSize: 'var(--font-size-xl)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--accent-orange)',
-                marginBottom: 'var(--space-3)'
-              }}>
-                The Gap: Up to 6.8 Years
-              </h3>
-              <p style={{
-                fontSize: 'var(--font-size-md)',
-                lineHeight: 'var(--line-height-relaxed)',
-                color: 'var(--neutral-700)',
-                margin: 0
-              }}>
-                The difference between the highest and lowest life expectancy groups represents nearly 7 years of life—time that should be available to everyone, regardless of background.
-              </p>
-            </div>
-          </Card>
+          <div style={{ marginTop: 'var(--space-8)' }}>
+            <Card className={styles.highlightCard}>
+              <div style={{ padding: 'var(--space-6)' }}>
+                <h3 style={{
+                  fontSize: 'var(--font-size-xl)',
+                  fontWeight: 'var(--font-weight-bold)',
+                  color: 'var(--accent-orange)',
+                  marginBottom: 'var(--space-3)'
+                }}>
+                  The Gap: Up to 6.8 Years
+                </h3>
+                <p style={{
+                  fontSize: 'var(--font-size-md)',
+                  lineHeight: 'var(--line-height-relaxed)',
+                  color: 'var(--neutral-700)',
+                  margin: 0
+                }}>
+                  The difference between the highest and lowest life expectancy groups represents nearly 7 years of life—time that should be available to everyone, regardless of background.
+                </p>
+              </div>
+            </Card>
+          </div>
         </FadeIn>
       </SectionBand>
 
       {/* Relationships & Drivers Band */}
-      <SectionBand variant="white">
+      <SectionBand variant="light">
         <FadeIn>
           <SectionHeader
             eyebrow="What Drives Health Outcomes"
@@ -345,7 +346,7 @@ export default function CompleteStoryPage() {
       </SectionBand>
 
       {/* Explore Your Community Band */}
-      <SectionBand variant="highlight">
+      <SectionBand variant="tinted">
         <FadeIn>
           <SectionHeader
             eyebrow="Interactive Explorer"
@@ -373,7 +374,7 @@ export default function CompleteStoryPage() {
       </SectionBand>
 
       {/* Back to Top */}
-      <SectionBand variant="white">
+      <SectionBand variant="light">
         <div style={{ textAlign: 'center', padding: 'var(--space-8) 0' }}>
           <Link href="/" style={{ textDecoration: 'none', color: 'var(--primary-600)', fontWeight: 'var(--font-weight-semibold)' }}>
             ← Back to Homepage
