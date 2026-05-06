@@ -1,0 +1,53 @@
+.section {
+  padding: var(--space-16) var(--space-8);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* Width variants */
+.width-standard {
+  max-width: var(--container-xl);
+}
+
+.width-wide {
+  max-width: var(--container-2xl);
+}
+
+.width-full {
+  max-width: none;
+}
+
+/* Background variants */
+.light {
+  background: var(--neutral-100);
+}
+
+.tinted {
+  background: var(--primary-50);
+}
+
+.neutral {
+  background: var(--neutral-200);
+}
+
+.dark {
+  background: var(--primary-900);
+  color: white;
+}
+
+/* Adjust text colors for dark variant */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: white;
+}
+
+.dark p,
+.dark li {
+  color: rgba(255, 255, 255, 0.9);
+}

@@ -1,0 +1,39 @@
+.header {
+  margin-bottom: var(--space-12);
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eyebrow {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  color: var(--neutral-600);
+  margin-bottom: var(--space-4);
+}
+
+.headline {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.01em;
+  color: var(--neutral-900);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.description {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-normal);
+  color: var(--neutral-700);
+  margin: 0;
+}

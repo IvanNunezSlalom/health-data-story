@@ -1,0 +1,49 @@
+.chartContainer {
+  background: var(--neutral-100);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-base);
+}
+
+.chartHeader {
+  margin-bottom: var(--space-6);
+}
+
+.chartEyebrow {
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  color: var(--neutral-600);
+  margin-bottom: var(--space-2);
+}
+
+.chartTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--neutral-900);
+  line-height: var(--line-height-snug);
+  margin-bottom: var(--space-2);
+}
+
+.chartDescription {
+  font-size: var(--font-size-base);
+  color: var(--neutral-700);
+  line-height: var(--line-height-normal);
+  margin: 0;
+}
+
+.chartBody {
+  min-height: 300px;
+  position: relative;
+}
+
+.chartLegend {
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--neutral-300);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}

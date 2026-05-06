@@ -1,0 +1,123 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Context Grid */
+.contextGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  align-items: center;
+  margin-bottom: var(--space-8);
+}
+
+.contextText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.contextHeadline {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-900);
+  line-height: var(--line-height-tight);
+  margin: 0;
+}
+
+.contextParagraph {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  color: var(--neutral-700);
+  margin: 0;
+}
+
+.contextImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+/* Insights Grid */
+.insightsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+/* Interpretation Text */
+.interpretationText {
+  max-width: 800px;
+  margin: var(--space-6) auto 0;
+  padding: var(--space-6);
+  background: var(--neutral-50);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--primary-500);
+}
+
+.interpretationText p {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-relaxed);
+  color: var(--neutral-800);
+  margin: 0;
+}
+
+/* Explore Skeleton */
+.exploreSkeleton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-8) 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contextGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .contextImage {
+    min-height: 300px;
+  }
+
+  .insightsGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
+
+@media (max-width: 768px) {
+  .contextHeadline {
+    font-size: var(--font-size-2xl);
+  }
+
+  .contextParagraph {
+    font-size: var(--font-size-md);
+  }
+
+  .contextImage {
+    min-height: 250px;
+  }
+
+  .interpretationText {
+    padding: var(--space-4);
+  }
+
+  .interpretationText p {
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .contextHeadline {
+    font-size: var(--font-size-xl);
+  }
+
+  .contextImage {
+    min-height: 200px;
+  }
+}

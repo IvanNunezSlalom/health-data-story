@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.dot {
+  transition: all 0.2s ease;
+}
+
+.trendline {
+  opacity: 0.8;
+}
+
+.label {
+  pointer-events: none;
+}
+
+.xAxis text,
+.yAxis text {
+  fill: var(--neutral-700);
+  font-size: var(--font-size-sm);
+}
+
+.axisLabel {
+  fill: var(--neutral-900);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+}

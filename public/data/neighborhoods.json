@@ -1,0 +1,827 @@
+[
+  {
+    "id": "tract-001",
+    "name": "Downtown Core",
+    "coordinates": {
+      "lat": 40.7273617041249,
+      "lon": -74.02483610845472
+    },
+    "population": 19304,
+    "zipCode": "10010",
+    "predominantRaceEthnicity": "White",
+    "medianIncomeBracket": "Under $25k",
+    "healthMetrics": {
+      "lifeExpectancy": 72,
+      "prematureMortalityRate": 482,
+      "infantMortalityRate": 3.3,
+      "diabetesPrevalence": 15.3,
+      "asthmaEDRate": 130
+    },
+    "sdohScores": {
+      "hoiScore": 17,
+      "hoiCategory": "Very Low",
+      "povertyRate": 38.4,
+      "unemploymentRate": 13,
+      "housingCostBurden": 25,
+      "hsGraduationRate": 70,
+      "primaryCareAccess": 8.3,
+      "housingScore": 18,
+      "educationScore": 8,
+      "employmentScore": 11,
+      "environmentScore": 6,
+      "healthcareScore": 0
+    }
+  },
+  {
+    "id": "tract-002",
+    "name": "Riverside",
+    "coordinates": {
+      "lat": 40.822375263988484,
+      "lon": -73.97761774445833
+    },
+    "population": 34035,
+    "zipCode": "10011",
+    "predominantRaceEthnicity": "Asian",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 79.8,
+      "prematureMortalityRate": 226,
+      "infantMortalityRate": 4.6,
+      "diabetesPrevalence": 10.5,
+      "asthmaEDRate": 91
+    },
+    "sdohScores": {
+      "hoiScore": 72,
+      "hoiCategory": "High",
+      "povertyRate": 16.3,
+      "unemploymentRate": 6.4,
+      "housingCostBurden": 41.5,
+      "hsGraduationRate": 86.5,
+      "primaryCareAccess": 19.3,
+      "housingScore": 7,
+      "educationScore": 19,
+      "employmentScore": 24,
+      "environmentScore": 28,
+      "healthcareScore": 14
+    }
+  },
+  {
+    "id": "tract-003",
+    "name": "Hillside",
+    "coordinates": {
+      "lat": 40.64522643649938,
+      "lon": -74.0318407917508
+    },
+    "population": 10452,
+    "zipCode": "10012",
+    "predominantRaceEthnicity": "White",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 77.8,
+      "prematureMortalityRate": 222,
+      "infantMortalityRate": 3,
+      "diabetesPrevalence": 10.1,
+      "asthmaEDRate": 139
+    },
+    "sdohScores": {
+      "hoiScore": 34,
+      "hoiCategory": "Low",
+      "povertyRate": 31.6,
+      "unemploymentRate": 11,
+      "housingCostBurden": 30.1,
+      "hsGraduationRate": 75.1,
+      "primaryCareAccess": 11.7,
+      "housingScore": 16,
+      "educationScore": 8,
+      "employmentScore": 0,
+      "environmentScore": 0,
+      "healthcareScore": 5
+    }
+  },
+  {
+    "id": "tract-004",
+    "name": "Northgate",
+    "coordinates": {
+      "lat": 40.71342493867946,
+      "lon": -74.10586216866146
+    },
+    "population": 21318,
+    "zipCode": "10013",
+    "predominantRaceEthnicity": "Multiracial/Other",
+    "medianIncomeBracket": "Over $100k",
+    "healthMetrics": {
+      "lifeExpectancy": 77.6,
+      "prematureMortalityRate": 290,
+      "infantMortalityRate": 3.3,
+      "diabetesPrevalence": 9.8,
+      "asthmaEDRate": 68
+    },
+    "sdohScores": {
+      "hoiScore": 84,
+      "hoiCategory": "Very High",
+      "povertyRate": 11.3,
+      "unemploymentRate": 4.9,
+      "housingCostBurden": 45.3,
+      "hsGraduationRate": 90.3,
+      "primaryCareAccess": 21.9,
+      "housingScore": 11,
+      "educationScore": 3,
+      "employmentScore": 7,
+      "environmentScore": 30,
+      "healthcareScore": 21
+    }
+  },
+  {
+    "id": "tract-005",
+    "name": "Parkview",
+    "coordinates": {
+      "lat": 40.70469281256264,
+      "lon": -74.02666969163913
+    },
+    "population": 7629,
+    "zipCode": "10014",
+    "predominantRaceEthnicity": "White",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 74.5,
+      "prematureMortalityRate": 252,
+      "infantMortalityRate": 6.8,
+      "diabetesPrevalence": 11.7,
+      "asthmaEDRate": 51
+    },
+    "sdohScores": {
+      "hoiScore": 37,
+      "hoiCategory": "Low",
+      "povertyRate": 30.4,
+      "unemploymentRate": 10.6,
+      "housingCostBurden": 31,
+      "hsGraduationRate": 76,
+      "primaryCareAccess": 12.3,
+      "housingScore": 0,
+      "educationScore": 20,
+      "employmentScore": 12,
+      "environmentScore": 0,
+      "healthcareScore": 2
+    }
+  },
+  {
+    "id": "tract-006",
+    "name": "Eastbrook",
+    "coordinates": {
+      "lat": 40.77959733219755,
+      "lon": -73.97598413091949
+    },
+    "population": 31209,
+    "zipCode": "10015",
+    "predominantRaceEthnicity": "Black/African American",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 80.6,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3.2,
+      "diabetesPrevalence": 9.1,
+      "asthmaEDRate": 124
+    },
+    "sdohScores": {
+      "hoiScore": 73,
+      "hoiCategory": "High",
+      "povertyRate": 16,
+      "unemploymentRate": 6.3,
+      "housingCostBurden": 41.8,
+      "hsGraduationRate": 86.8,
+      "primaryCareAccess": 19.5,
+      "housingScore": 0,
+      "educationScore": 25,
+      "employmentScore": 21,
+      "environmentScore": 22,
+      "healthcareScore": 13
+    }
+  },
+  {
+    "id": "tract-007",
+    "name": "Westfield",
+    "coordinates": {
+      "lat": 40.67118054486987,
+      "lon": -74.02197105237755
+    },
+    "population": 30776,
+    "zipCode": "10016",
+    "predominantRaceEthnicity": "Asian",
+    "medianIncomeBracket": "$50k-$75k",
+    "healthMetrics": {
+      "lifeExpectancy": 81.5,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3,
+      "diabetesPrevalence": 14.1,
+      "asthmaEDRate": 99
+    },
+    "sdohScores": {
+      "hoiScore": 54,
+      "hoiCategory": "Moderate",
+      "povertyRate": 23.6,
+      "unemploymentRate": 8.6,
+      "housingCostBurden": 36.1,
+      "hsGraduationRate": 81.1,
+      "primaryCareAccess": 15.7,
+      "housingScore": 14,
+      "educationScore": 3,
+      "employmentScore": 1,
+      "environmentScore": 16,
+      "healthcareScore": 10
+    }
+  },
+  {
+    "id": "tract-008",
+    "name": "Southside",
+    "coordinates": {
+      "lat": 40.73566269650355,
+      "lon": -74.07022391974108
+    },
+    "population": 25776,
+    "zipCode": "10017",
+    "predominantRaceEthnicity": "Asian",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 73.5,
+      "prematureMortalityRate": 338,
+      "infantMortalityRate": 9.7,
+      "diabetesPrevalence": 8.8,
+      "asthmaEDRate": 153
+    },
+    "sdohScores": {
+      "hoiScore": 37,
+      "hoiCategory": "Low",
+      "povertyRate": 30.3,
+      "unemploymentRate": 10.6,
+      "housingCostBurden": 31,
+      "hsGraduationRate": 76,
+      "primaryCareAccess": 12.3,
+      "housingScore": 0,
+      "educationScore": 17,
+      "employmentScore": 19,
+      "environmentScore": 16,
+      "healthcareScore": 11
+    }
+  },
+  {
+    "id": "tract-009",
+    "name": "Midtown",
+    "coordinates": {
+      "lat": 40.70755011613291,
+      "lon": -73.98852061285496
+    },
+    "population": 29582,
+    "zipCode": "10018",
+    "predominantRaceEthnicity": "Asian",
+    "medianIncomeBracket": "$50k-$75k",
+    "healthMetrics": {
+      "lifeExpectancy": 78.3,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 6.5,
+      "diabetesPrevalence": 9.6,
+      "asthmaEDRate": 95
+    },
+    "sdohScores": {
+      "hoiScore": 51,
+      "hoiCategory": "Moderate",
+      "povertyRate": 24.6,
+      "unemploymentRate": 8.9,
+      "housingCostBurden": 35.3,
+      "hsGraduationRate": 80.3,
+      "primaryCareAccess": 15.2,
+      "housingScore": 0,
+      "educationScore": 2,
+      "employmentScore": 1,
+      "environmentScore": 0,
+      "healthcareScore": 8
+    }
+  },
+  {
+    "id": "tract-010",
+    "name": "Lakefront",
+    "coordinates": {
+      "lat": 40.76614932872745,
+      "lon": -73.95768112854864
+    },
+    "population": 10640,
+    "zipCode": "10019",
+    "predominantRaceEthnicity": "Asian",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 80.6,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3.5,
+      "diabetesPrevalence": 9.4,
+      "asthmaEDRate": 87
+    },
+    "sdohScores": {
+      "hoiScore": 68,
+      "hoiCategory": "High",
+      "povertyRate": 17.9,
+      "unemploymentRate": 6.9,
+      "housingCostBurden": 40.3,
+      "hsGraduationRate": 85.3,
+      "primaryCareAccess": 18.5,
+      "housingScore": 10,
+      "educationScore": 0,
+      "employmentScore": 16,
+      "environmentScore": 5,
+      "healthcareScore": 15
+    }
+  },
+  {
+    "id": "tract-011",
+    "name": "Oak Park",
+    "coordinates": {
+      "lat": 40.64596031406853,
+      "lon": -74.03284816735952
+    },
+    "population": 21525,
+    "zipCode": "10020",
+    "predominantRaceEthnicity": "Hispanic/Latino",
+    "medianIncomeBracket": "$50k-$75k",
+    "healthMetrics": {
+      "lifeExpectancy": 78.7,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3.7,
+      "diabetesPrevalence": 13.6,
+      "asthmaEDRate": 139
+    },
+    "sdohScores": {
+      "hoiScore": 44,
+      "hoiCategory": "Moderate",
+      "povertyRate": 27.4,
+      "unemploymentRate": 9.7,
+      "housingCostBurden": 33.2,
+      "hsGraduationRate": 78.2,
+      "primaryCareAccess": 13.8,
+      "housingScore": 0,
+      "educationScore": 21,
+      "employmentScore": 0,
+      "environmentScore": 21,
+      "healthcareScore": 3
+    }
+  },
+  {
+    "id": "tract-012",
+    "name": "Maple Heights",
+    "coordinates": {
+      "lat": 40.715353290441755,
+      "lon": -74.07654275228151
+    },
+    "population": 30235,
+    "zipCode": "10021",
+    "predominantRaceEthnicity": "Asian",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 79.4,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3,
+      "diabetesPrevalence": 12,
+      "asthmaEDRate": 52
+    },
+    "sdohScores": {
+      "hoiScore": 66,
+      "hoiCategory": "High",
+      "povertyRate": 18.4,
+      "unemploymentRate": 7,
+      "housingCostBurden": 39.9,
+      "hsGraduationRate": 84.9,
+      "primaryCareAccess": 18.3,
+      "housingScore": 4,
+      "educationScore": 19,
+      "employmentScore": 1,
+      "environmentScore": 12,
+      "healthcareScore": 26
+    }
+  },
+  {
+    "id": "tract-013",
+    "name": "Cedar Grove",
+    "coordinates": {
+      "lat": 40.68335615765955,
+      "lon": -74.02016229300494
+    },
+    "population": 34956,
+    "zipCode": "10022",
+    "predominantRaceEthnicity": "Black/African American",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 75.5,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 7.1,
+      "diabetesPrevalence": 12.3,
+      "asthmaEDRate": 101
+    },
+    "sdohScores": {
+      "hoiScore": 38,
+      "hoiCategory": "Low",
+      "povertyRate": 29.6,
+      "unemploymentRate": 10.4,
+      "housingCostBurden": 31.5,
+      "hsGraduationRate": 76.5,
+      "primaryCareAccess": 12.7,
+      "housingScore": 8,
+      "educationScore": 6,
+      "employmentScore": 12,
+      "environmentScore": 8,
+      "healthcareScore": 15
+    }
+  },
+  {
+    "id": "tract-014",
+    "name": "Pine Valley",
+    "coordinates": {
+      "lat": 40.77671624146364,
+      "lon": -73.99974589087658
+    },
+    "population": 18322,
+    "zipCode": "10023",
+    "predominantRaceEthnicity": "Multiracial/Other",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 76.6,
+      "prematureMortalityRate": 278,
+      "infantMortalityRate": 7.6,
+      "diabetesPrevalence": 10.4,
+      "asthmaEDRate": 89
+    },
+    "sdohScores": {
+      "hoiScore": 70,
+      "hoiCategory": "High",
+      "povertyRate": 17.1,
+      "unemploymentRate": 6.6,
+      "housingCostBurden": 41,
+      "hsGraduationRate": 86,
+      "primaryCareAccess": 19,
+      "housingScore": 9,
+      "educationScore": 27,
+      "employmentScore": 28,
+      "environmentScore": 18,
+      "healthcareScore": 6
+    }
+  },
+  {
+    "id": "tract-015",
+    "name": "Willow Creek",
+    "coordinates": {
+      "lat": 40.66144812273581,
+      "lon": -74.04351099976425
+    },
+    "population": 21510,
+    "zipCode": "10024",
+    "predominantRaceEthnicity": "Black/African American",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 75.5,
+      "prematureMortalityRate": 393,
+      "infantMortalityRate": 5.5,
+      "diabetesPrevalence": 9.7,
+      "asthmaEDRate": 119
+    },
+    "sdohScores": {
+      "hoiScore": 26,
+      "hoiCategory": "Low",
+      "povertyRate": 34.6,
+      "unemploymentRate": 11.9,
+      "housingCostBurden": 27.8,
+      "hsGraduationRate": 72.8,
+      "primaryCareAccess": 10.2,
+      "housingScore": 15,
+      "educationScore": 0,
+      "employmentScore": 17,
+      "environmentScore": 18,
+      "healthcareScore": 0
+    }
+  },
+  {
+    "id": "tract-016",
+    "name": "Sunset District",
+    "coordinates": {
+      "lat": 40.70461987493729,
+      "lon": -74.11306456572026
+    },
+    "population": 10829,
+    "zipCode": "10025",
+    "predominantRaceEthnicity": "Multiracial/Other",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 80.5,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 6.3,
+      "diabetesPrevalence": 10,
+      "asthmaEDRate": 62
+    },
+    "sdohScores": {
+      "hoiScore": 74,
+      "hoiCategory": "High",
+      "povertyRate": 15.4,
+      "unemploymentRate": 6.1,
+      "housingCostBurden": 42.2,
+      "hsGraduationRate": 87.2,
+      "primaryCareAccess": 19.8,
+      "housingScore": 14,
+      "educationScore": 2,
+      "employmentScore": 1,
+      "environmentScore": 28,
+      "healthcareScore": 6
+    }
+  },
+  {
+    "id": "tract-017",
+    "name": "Harbor View",
+    "coordinates": {
+      "lat": 40.72860075114772,
+      "lon": -73.98135295405974
+    },
+    "population": 17306,
+    "zipCode": "10026",
+    "predominantRaceEthnicity": "Black/African American",
+    "medianIncomeBracket": "$50k-$75k",
+    "healthMetrics": {
+      "lifeExpectancy": 75.2,
+      "prematureMortalityRate": 262,
+      "infantMortalityRate": 6.1,
+      "diabetesPrevalence": 14.4,
+      "asthmaEDRate": 101
+    },
+    "sdohScores": {
+      "hoiScore": 51,
+      "hoiCategory": "Moderate",
+      "povertyRate": 24.8,
+      "unemploymentRate": 8.9,
+      "housingCostBurden": 35.2,
+      "hsGraduationRate": 80.2,
+      "primaryCareAccess": 15.1,
+      "housingScore": 10,
+      "educationScore": 0,
+      "employmentScore": 6,
+      "environmentScore": 13,
+      "healthcareScore": 25
+    }
+  },
+  {
+    "id": "tract-018",
+    "name": "University District",
+    "coordinates": {
+      "lat": 40.79032062636585,
+      "lon": -73.96151425738846
+    },
+    "population": 28342,
+    "zipCode": "10027",
+    "predominantRaceEthnicity": "Multiracial/Other",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 83.1,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 4.2,
+      "diabetesPrevalence": 11.5,
+      "asthmaEDRate": 119
+    },
+    "sdohScores": {
+      "hoiScore": 69,
+      "hoiCategory": "High",
+      "povertyRate": 17.6,
+      "unemploymentRate": 6.8,
+      "housingCostBurden": 40.6,
+      "hsGraduationRate": 85.6,
+      "primaryCareAccess": 18.7,
+      "housingScore": 19,
+      "educationScore": 10,
+      "employmentScore": 3,
+      "environmentScore": 25,
+      "healthcareScore": 15
+    }
+  },
+  {
+    "id": "tract-019",
+    "name": "Old Town",
+    "coordinates": {
+      "lat": 40.668524188461205,
+      "lon": -74.05107644580048
+    },
+    "population": 23897,
+    "zipCode": "10028",
+    "predominantRaceEthnicity": "Hispanic/Latino",
+    "medianIncomeBracket": "$50k-$75k",
+    "healthMetrics": {
+      "lifeExpectancy": 76.8,
+      "prematureMortalityRate": 212,
+      "infantMortalityRate": 3,
+      "diabetesPrevalence": 13.6,
+      "asthmaEDRate": 67
+    },
+    "sdohScores": {
+      "hoiScore": 46,
+      "hoiCategory": "Moderate",
+      "povertyRate": 26.5,
+      "unemploymentRate": 9.5,
+      "housingCostBurden": 33.8,
+      "hsGraduationRate": 78.8,
+      "primaryCareAccess": 14.2,
+      "housingScore": 0,
+      "educationScore": 0,
+      "employmentScore": 15,
+      "environmentScore": 1,
+      "healthcareScore": 9
+    }
+  },
+  {
+    "id": "tract-020",
+    "name": "Green Meadows",
+    "coordinates": {
+      "lat": 40.71638109774852,
+      "lon": -74.10753404301676
+    },
+    "population": 30831,
+    "zipCode": "10029",
+    "predominantRaceEthnicity": "Black/African American",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 77,
+      "prematureMortalityRate": 328,
+      "infantMortalityRate": 9.7,
+      "diabetesPrevalence": 11.8,
+      "asthmaEDRate": 61
+    },
+    "sdohScores": {
+      "hoiScore": 65,
+      "hoiCategory": "High",
+      "povertyRate": 18.9,
+      "unemploymentRate": 7.2,
+      "housingCostBurden": 39.6,
+      "hsGraduationRate": 84.6,
+      "primaryCareAccess": 18.1,
+      "housingScore": 5,
+      "educationScore": 1,
+      "employmentScore": 1,
+      "environmentScore": 22,
+      "healthcareScore": 14
+    }
+  },
+  {
+    "id": "tract-021",
+    "name": "Highland Park",
+    "coordinates": {
+      "lat": 40.726761198995575,
+      "lon": -73.98289882640212
+    },
+    "population": 20105,
+    "zipCode": "10030",
+    "predominantRaceEthnicity": "White",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 73.4,
+      "prematureMortalityRate": 338,
+      "infantMortalityRate": 9.1,
+      "diabetesPrevalence": 14.2,
+      "asthmaEDRate": 136
+    },
+    "sdohScores": {
+      "hoiScore": 33,
+      "hoiCategory": "Low",
+      "povertyRate": 32,
+      "unemploymentRate": 11.1,
+      "housingCostBurden": 29.8,
+      "hsGraduationRate": 74.8,
+      "primaryCareAccess": 11.5,
+      "housingScore": 0,
+      "educationScore": 9,
+      "employmentScore": 15,
+      "environmentScore": 7,
+      "healthcareScore": 14
+    }
+  },
+  {
+    "id": "tract-022",
+    "name": "Bayshore",
+    "coordinates": {
+      "lat": 40.8046793051015,
+      "lon": -74.00357830697257
+    },
+    "population": 20995,
+    "zipCode": "10031",
+    "predominantRaceEthnicity": "Hispanic/Latino",
+    "medianIncomeBracket": "$75k-$100k",
+    "healthMetrics": {
+      "lifeExpectancy": 80.9,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 4.4,
+      "diabetesPrevalence": 10.2,
+      "asthmaEDRate": 77
+    },
+    "sdohScores": {
+      "hoiScore": 79,
+      "hoiCategory": "High",
+      "povertyRate": 13.4,
+      "unemploymentRate": 5.5,
+      "housingCostBurden": 43.7,
+      "hsGraduationRate": 88.7,
+      "primaryCareAccess": 20.8,
+      "housingScore": 11,
+      "educationScore": 15,
+      "employmentScore": 18,
+      "environmentScore": 13,
+      "healthcareScore": 3
+    }
+  },
+  {
+    "id": "tract-023",
+    "name": "Valley View",
+    "coordinates": {
+      "lat": 40.650702136438774,
+      "lon": -74.02698246144703
+    },
+    "population": 32558,
+    "zipCode": "10032",
+    "predominantRaceEthnicity": "Black/African American",
+    "medianIncomeBracket": "Over $100k",
+    "healthMetrics": {
+      "lifeExpectancy": 80.5,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3,
+      "diabetesPrevalence": 10.2,
+      "asthmaEDRate": 90
+    },
+    "sdohScores": {
+      "hoiScore": 82,
+      "hoiCategory": "Very High",
+      "povertyRate": 12.1,
+      "unemploymentRate": 5.1,
+      "housingCostBurden": 44.6,
+      "hsGraduationRate": 89.6,
+      "primaryCareAccess": 21.4,
+      "housingScore": 3,
+      "educationScore": 7,
+      "employmentScore": 14,
+      "environmentScore": 10,
+      "healthcareScore": 13
+    }
+  },
+  {
+    "id": "tract-024",
+    "name": "Mission District",
+    "coordinates": {
+      "lat": 40.7418395668054,
+      "lon": -74.08872889674255
+    },
+    "population": 11933,
+    "zipCode": "10033",
+    "predominantRaceEthnicity": "White",
+    "medianIncomeBracket": "$50k-$75k",
+    "healthMetrics": {
+      "lifeExpectancy": 76.9,
+      "prematureMortalityRate": 200,
+      "infantMortalityRate": 3.4,
+      "diabetesPrevalence": 9.8,
+      "asthmaEDRate": 135
+    },
+    "sdohScores": {
+      "hoiScore": 56,
+      "hoiCategory": "Moderate",
+      "povertyRate": 22.5,
+      "unemploymentRate": 8.3,
+      "housingCostBurden": 36.8,
+      "hsGraduationRate": 81.8,
+      "primaryCareAccess": 16.2,
+      "housingScore": 0,
+      "educationScore": 9,
+      "employmentScore": 23,
+      "environmentScore": 0,
+      "healthcareScore": 14
+    }
+  },
+  {
+    "id": "tract-025",
+    "name": "Lincoln Heights",
+    "coordinates": {
+      "lat": 40.73543792836979,
+      "lon": -73.9870511078499
+    },
+    "population": 24032,
+    "zipCode": "10034",
+    "predominantRaceEthnicity": "Hispanic/Latino",
+    "medianIncomeBracket": "$25k-$50k",
+    "healthMetrics": {
+      "lifeExpectancy": 73.7,
+      "prematureMortalityRate": 354,
+      "infantMortalityRate": 8.1,
+      "diabetesPrevalence": 11.3,
+      "asthmaEDRate": 91
+    },
+    "sdohScores": {
+      "hoiScore": 29,
+      "hoiCategory": "Low",
+      "povertyRate": 33.2,
+      "unemploymentRate": 11.5,
+      "housingCostBurden": 28.8,
+      "hsGraduationRate": 73.8,
+      "primaryCareAccess": 10.9,
+      "housingScore": 7,
+      "educationScore": 19,
+      "employmentScore": 0,
+      "environmentScore": 2,
+      "healthcareScore": 0
+    }
+  }
+]

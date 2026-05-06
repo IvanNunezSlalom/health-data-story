@@ -1,0 +1,59 @@
+.featureCard {
+  background: var(--primary-900);
+  color: var(--neutral-100);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-8);
+  transition: all var(--transition-base);
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: default;
+}
+
+.interactive {
+  cursor: pointer;
+}
+
+.interactive:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.interactive:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+.eyebrow {
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  color: var(--primary-200);
+  margin-bottom: var(--space-3);
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-100);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-4);
+}
+
+.description {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.9);
+  line-height: var(--line-height-normal);
+  margin-bottom: var(--space-4);
+}
+
+.description:last-child {
+  margin-bottom: 0;
+}
+
+.content {
+  margin-top: var(--space-6);
+}

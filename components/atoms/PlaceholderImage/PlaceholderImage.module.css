@@ -1,0 +1,21 @@
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  color: var(--neutral-600);
+  border-radius: var(--radius-lg);
+}
+
+.icon {
+  opacity: 0.5;
+}
+
+.label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  opacity: 0.6;
+}

@@ -1,0 +1,48 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.icon {
+  font-size: 48px;
+  line-height: 1;
+  opacity: 0.9;
+}
+
+.link {
+  margin-top: auto;
+}
+
+.link a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: white;
+  text-decoration: none;
+  transition: gap var(--transition-base);
+}
+
+.link a:hover {
+  gap: var(--space-3);
+  text-decoration: underline;
+}
+
+.link a:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+
+.link svg {
+  flex-shrink: 0;
+}
